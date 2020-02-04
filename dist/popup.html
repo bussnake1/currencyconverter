@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <script src="fontawesome.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+
+    <section class="section">
+      <div class="container">
+        <h1 class="has-text-centered"><strong>Currency Converter</strong></h1>
+
+        <div id="conversion">
+          <div class="field has-addons">
+            <div class="control">
+              <input class="input is-primary" id="input-base" type="text" value="1">
+            </div>
+            <div class="select control is-primary">
+              <select class="currency-select" id="base">
+                <option>EUR</option>
+              </select>
+            </div>
+          </div>
+          <div class="field has-addons">
+            <div class="control">
+              <input class="input is-primary" id="input-to" type="text" placeholder="">
+            </div>
+            <div class="select control is-primary">
+              <select class="currency-select" id="to">
+                <option>HUF</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </body>
+</html>
